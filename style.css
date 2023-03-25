@@ -1,21 +1,14 @@
-@keyframes ctitle {
+@keyframes cctitle {
 	from {color: gold;}
 	to {color: rgb(255, 123, 0);}
   }
 
-@keyframes disclaimertxt {
-	from {color: rgb(255, 0, 0);}
-	to {color: rgb(121, 0, 0);}
-}  
+.main {
+	background-color: green;
+}
 
-.backimage {
-	position: relative;
-	text-align: center;
-	color: white;
-  }
-
-.title{
-	font-size: 225px;
+.title {
+	font-size: 180px;
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	animation-name: ctitle;
@@ -65,59 +58,13 @@
 	animation-iteration-count: infinite;
 }
 
-.wipfunctions {
-	color: white;
-	font-size: 16px;
-	font-family: Verdana, Geneva, Tahoma, sans-serif, bold;
-	text-align: center;
-}
-
-.wipfuncs {
-	color: white;
-	font-size: 28px;
-	font-family: 'Poppins', sans-serif;
-	text-align: left;
-}
-
-.takeyourmeds {
-	color: white;
-	font-size: 16px;
-	font-family: 'Roboto', sans-serif;
-	text-align: center;
-}
-
-
-.hidden {
-	opacity: 0;
-	filter: blur(5px);
-	transform: translateX(-100%);
-	transition: all 1s;
-}
-
-.show {
-	opacity: 1;
-	filter: blur(0);
-	transform: translateX(0);
-}
-
-@media(prefers-reduced-motion) {
-	.hidden {
-		transition: none;
-	}
-}
-
 p {
-	font-family: 'Rubik', sans-serif;
+	color: white;
+	font-size: 22px;
+	text-align: center;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body {
-	background-color: rgb(18, 18, 18);
-}
-
-hr {
-	background-color: white;
-}
-
-div {
-	min-height: 100px;
+	background-color: black;
 }
