@@ -1,13 +1,13 @@
-@keyframes cctitle {
+body {
+	background-color: black;
+}
+
+@keyframes ctitle {
 	from {color: gold;}
 	to {color: goldenrod;}
   }
 
-.main {
-	background-color: green;
-}
-
-.title {
+.title{
 	font-size: 180px;
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
@@ -15,15 +15,4 @@
 	animation-duration: 2.5s;
 	animation-direction: alternate-reverse;
 	animation-iteration-count: infinite;
-}
-
-p {
-	color: white;
-	font-size: 22px;
-	text-align: center;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-body {
-	background-color: black;
 }
